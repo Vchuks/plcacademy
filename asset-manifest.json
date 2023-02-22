@@ -1,0 +1,35 @@
+{
+  "files": {
+    "main.css": "/plcacademy/static/css/main.55a36e87.css",
+    "main.js": "/plcacademy/static/js/main.243c1b27.js",
+    "static/js/787.cd4edd05.chunk.js": "/plcacademy/static/js/787.cd4edd05.chunk.js",
+    "static/media/Frame 8.png": "/plcacademy/static/media/Frame 8.7d9f8de6bb677c970af7.png",
+    "static/media/image 7.png": "/plcacademy/static/media/image 7.b31934e1f71eb16f3a2c.png",
+    "static/media/Frame 143.png": "/plcacademy/static/media/Frame 143.da51b9a04b35ff762e03.png",
+    "static/media/Frame 110 (2).png": "/plcacademy/static/media/Frame 110 (2).d551f33a6b16866c9f11.png",
+    "static/media/Frame 110.png": "/plcacademy/static/media/Frame 110.f7c6d8de621e831b82da.png",
+    "static/media/Frame 110 (1).png": "/plcacademy/static/media/Frame 110 (1).09579c468a69f7371c9e.png",
+    "static/media/Frame 110 (3).png": "/plcacademy/static/media/Frame 110 (3).a2cf6b0db0d9383a4350.png",
+    "static/media/Frame 49 (22).png": "/plcacademy/static/media/Frame 49 (22).9207100a6048900e6e51.png",
+    "static/media/groupmap.png": "/plcacademy/static/media/groupmap.251f95917235290d1999.png",
+    "static/media/Frame 49 (4).png": "/plcacademy/static/media/Frame 49 (4).bd3c134c266fa0ecf024.png",
+    "static/media/Frame 49 (11).png": "/plcacademy/static/media/Frame 49 (11).4763dcdbb4c0bea0aeb7.png",
+    "static/media/Frame 49 (6).png": "/plcacademy/static/media/Frame 49 (6).66c45edff4a46d93f0e9.png",
+    "static/media/Frame 49 (5).png": "/plcacademy/static/media/Frame 49 (5).c701369782e7b60c49ed.png",
+    "static/media/Frame 49 (7).png": "/plcacademy/static/media/Frame 49 (7).ea39794f1ad8cd5d16f8.png",
+    "static/media/Frame 49 (3).png": "/plcacademy/static/media/Frame 49 (3).0a2d1d8bf1a751b1d995.png",
+    "static/media/Frame 49 (12).png": "/plcacademy/static/media/Frame 49 (12).36be1dbfc178352d17f6.png",
+    "static/media/Frame 49 (8).png": "/plcacademy/static/media/Frame 49 (8).c99c5cd6b5e5b3ae27d4.png",
+    "static/media/Frame 60917.png": "/plcacademy/static/media/Frame 60917.9dfb02d97d56bbf475ac.png",
+    "static/media/Frame 49.png": "/plcacademy/static/media/Frame 49.bec334ca8e8d09d5837f.png",
+    "static/media/Frame 49 (2).png": "/plcacademy/static/media/Frame 49 (2).5600a534d0dc195e2091.png",
+    "index.html": "/plcacademy/index.html",
+    "main.55a36e87.css.map": "/plcacademy/static/css/main.55a36e87.css.map",
+    "main.243c1b27.js.map": "/plcacademy/static/js/main.243c1b27.js.map",
+    "787.cd4edd05.chunk.js.map": "/plcacademy/static/js/787.cd4edd05.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.55a36e87.css",
+    "static/js/main.243c1b27.js"
+  ]
+}
