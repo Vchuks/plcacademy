@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/plcacademy/static/css/main.b08c8ca9.css",
-    "main.js": "/plcacademy/static/js/main.4a9bf844.js",
+    "main.css": "/plcacademy/static/css/main.b5e52489.css",
+    "main.js": "/plcacademy/static/js/main.e4805ce6.js",
     "static/js/787.cd4edd05.chunk.js": "/plcacademy/static/js/787.cd4edd05.chunk.js",
     "static/media/Frame 8.png": "/plcacademy/static/media/Frame 8.7d9f8de6bb677c970af7.png",
     "static/media/image 7.png": "/plcacademy/static/media/image 7.b31934e1f71eb16f3a2c.png",
@@ -25,12 +25,12 @@
     "static/media/Frame 49.png": "/plcacademy/static/media/Frame 49.bec334ca8e8d09d5837f.png",
     "static/media/Frame 49 (2).png": "/plcacademy/static/media/Frame 49 (2).5600a534d0dc195e2091.png",
     "index.html": "/plcacademy/index.html",
-    "main.b08c8ca9.css.map": "/plcacademy/static/css/main.b08c8ca9.css.map",
-    "main.4a9bf844.js.map": "/plcacademy/static/js/main.4a9bf844.js.map",
+    "main.b5e52489.css.map": "/plcacademy/static/css/main.b5e52489.css.map",
+    "main.e4805ce6.js.map": "/plcacademy/static/js/main.e4805ce6.js.map",
     "787.cd4edd05.chunk.js.map": "/plcacademy/static/js/787.cd4edd05.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.b08c8ca9.css",
-    "static/js/main.4a9bf844.js"
+    "static/css/main.b5e52489.css",
+    "static/js/main.e4805ce6.js"
   ]
 }
