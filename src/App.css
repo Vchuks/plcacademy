@@ -1,3 +1,15 @@
+@font-face {
+  font-family: Gilroy-Medium;
+  src: url(Gilroy-Medium.ttf);
+  /* font-weight: 300; */
+}
+
+body{
+  font-family: Gilroy-Medium;
+}
+.lit{
+  font-weight: 100;
+}
 .ptcolor{
   color: #F8991D;
 }
@@ -53,7 +65,7 @@
 }
 .normal{
   width: 40%;
-  font-weight: 500;
+  font-weight: 600;
   padding-top: 0.7rem;
 }
 
@@ -307,6 +319,9 @@
     .pad{
       padding: 2rem 1.2rem;
     }
+    .pdhead{
+      padding: 1rem 1.2rem;
+    }
     .mag{
       margin: 0;
     }
@@ -394,6 +409,7 @@
       width: 50%;
       margin: auto;
     }
+    
     .top{
       width: 90%;
       margin: auto;

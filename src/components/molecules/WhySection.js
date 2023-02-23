@@ -6,7 +6,7 @@ import pix from '../../images/image 7.png'
 const WhySection = () => {
   return (
     <div className="pt-1 pt-lg-5  whh enbg">
-      <h3 className="pseccolor text-center pad">WHY PLURALCODE?</h3>
+      <h3 className="pseccolor text-center pad fw-semibold">WHY PLURALCODE?</h3>
       <div className="pad w-100 d-flex flex-column flex-lg-row flex-column-reverse gap-4 justify-content-between">
         <Why
           h3="

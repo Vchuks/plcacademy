@@ -28,7 +28,7 @@ const Footer = () => {
 
       <div className="w-100 d-flex flex-wrap foottwo flex-row gap-5 pb-5">
         <div className="footw d-flex flex-column gap-2">
-          <h5>Top Courses</h5>
+          <h5 className="fw-semibold">Top Courses</h5>
           <Link to="#">Data Analysis</Link>
           <Link to="#">Data Science</Link>
           <Link to="#">Data Engineering</Link>
@@ -39,19 +39,19 @@ const Footer = () => {
           <Link to="#">Product Marketing</Link>
         </div>
         <div className="footw d-flex flex-column gap-2">
-          <h5>Platforms</h5>
+          <h5 className="fw-semibold">Platforms</h5>
           <Link to="#">Pluralcode SandBox</Link>
           <Link to="#">Web Series</Link>
           <Link to="#">Exclusive</Link>
         </div>
         <div className="footw d-flex flex-column gap-2">
-          <h5>Schools</h5>
+          <h5 className="fw-semibold">Schools</h5>
           <Link to="#">School of Data</Link>
           <Link to="#">School of Product</Link>
           <Link to="#">School of Engineering</Link>
         </div>
         <div className="footw d-flex flex-column gap-2">
-          <h5>Company</h5>
+          <h5 className="fw-semibold">Company</h5>
           <Link to="#">Why Pluralcode</Link>
           <Link to="#">Talk to Student Advisor</Link>
           <Link to="#">Become a Mentor</Link>
@@ -60,7 +60,7 @@ const Footer = () => {
           <Link to="#">Hire Our Talents</Link>
         </div>
         <div className="footw d-flex flex-column gap-2">
-          <h5>Resources</h5>
+          <h5 className="fw-semibold">Resources</h5>
           <Link to="#">Webinar series</Link>
           <Link to="#">Events</Link>
           <Link to="#">FAQs</Link>
@@ -68,14 +68,14 @@ const Footer = () => {
           <Link to="#">Where Our Talents Works</Link>
         </div>
         <div className="footw d-flex flex-column gap-2">
-          <h5>Policies</h5>
+          <h5 className="fw-semibold">Policies</h5>
           <Link to="#">Terms and Condition</Link>
           <Link to="#">Student Loan Policy</Link>
           <Link to="#">Refunds Policy</Link>
           <Link to="#">Privacy Policy</Link>
         </div>
         <div className="d-flex flex-column gap-2">
-          <h5>Contact</h5>
+          <h5 className="fw-semibold">Contact</h5>
           <div className="d-flex gap-3 align-items-center"><Logo src={tel}/><Link to="#">+(234) 708-315-3185.</Link></div>
           <div className="d-flex gap-3 align-items-center"><Logo src={tel}/><Link to="#">+(234) 813-152-9862.</Link></div>
           <div className="d-flex gap-3 align-items-center"><Logo src={twitout} /><Link to="#">pluralcode</Link></div>

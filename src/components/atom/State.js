@@ -30,7 +30,7 @@ const State = ({list}) => {
           className="w-100 faq py-3 px-4 d-flex align-items-center justify-content-between border-bottom rounded-4"
           onClick={handleState}
         >
-          <h5 className="d-flex align-items-center faqh5">
+          <h5 className="d-flex align-items-center faqh5 fw-semibold">
             <Logo src={elipse} className="elip" />
             {top}
           </h5>
@@ -39,7 +39,7 @@ const State = ({list}) => {
       )}
       {title && (
         <div className="py-3 px-4 faq">
-          <h4>Why do I have to speak with your Student Advisor?</h4>
+          <h4 className="fw-semibold">Why do I have to speak with your Student Advisor?</h4>
           <p>
            {body}
           </p>

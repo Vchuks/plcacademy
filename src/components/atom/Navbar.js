@@ -12,7 +12,7 @@ const Navbar = () => {
   }
   return (
     <>
-    <div className="w-100 d-none redd d-lg-flex justify-content-between fw-semibold align-items-center">
+    <div className="w-100 d-none redd d-lg-flex justify-content-between align-items-center">
       <div className="navbtntwo d-flex justify-content-between align-items-center">
         <NavLink to="" className="text-decoration-none navtextcolor">
           Certificate Courses

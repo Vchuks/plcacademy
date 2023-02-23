@@ -9,7 +9,7 @@ import Button from "../atom/Button";
 const Enroll = () => {
   return (
     <div className="pad padd enbg">
-      <h2 className="text-center pseccolor py-lg-5">How to Enroll?</h2>
+      <h2 className="text-center pseccolor py-lg-5 fw-semibold">How to Enroll?</h2>
       <div className="d-flex flex-column flex-lg-row gap-4 py-3">
         <Enrollpill
           h3="Step One"

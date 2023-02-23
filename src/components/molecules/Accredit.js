@@ -62,10 +62,9 @@ const Accredit = () => {
                 </h3>
                 <div className="relative pt-4">
                   <Logo src={qt1} className="qtone" />
-                  <p className="ps-4 pt-2">
-                    <span className="fw-semibold">Bukola Lawal</span> | Product
-                    Designer
-                  </p>
+                  <h5 className="ps-4 pt-2">
+                    Bukola Lawal | Product Designer
+                  </h5>
                   <p className="accp px-4 lh-lg">
                     Lorem ipsum dolor sit amet, consectetur adipisicing elit.
                     Cum consectetur quisquam ex, distinctio nobis non deleniti
@@ -88,10 +87,9 @@ const Accredit = () => {
                 </h3>
                 <div className="relative pt-4">
                   <Logo src={qt1} className="qtone" />
-                  <p className="ps-4 pt-2">
-                    <span className="fw-semibold">Bukola Lawal</span> | Product
-                    Designer
-                  </p>
+                  <h5 className="ps-4 pt-2">
+                    Bukola Lawal | Product Designer
+                  </h5>
                   <p className="accp px-4 lh-lg">
                     Lorem ipsum dolor sit amet, consectetur adipisicing elit.
                     Cum consectetur quisquam ex, distinctio nobis non deleniti
@@ -114,10 +112,9 @@ const Accredit = () => {
                 </h3>
                 <div className="relative pt-4">
                   <Logo src={qt1} className="qtone" />
-                  <p className="ps-4 pt-2">
-                    <span className="fw-semibold">Bukola Lawal</span> | Product
-                    Designer
-                  </p>
+                  <h5 className="ps-4 pt-2">
+                    Bukola Lawal | Product Designer
+                  </h5>
                   <p className="accp px-4 lh-lg">
                     Lorem ipsum dolor sit amet, consectetur adipisicing elit.
                     Cum consectetur quisquam ex, distinctio nobis non deleniti
