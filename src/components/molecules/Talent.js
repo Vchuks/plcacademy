@@ -9,7 +9,7 @@ const Talent = () => {
   return (
     <div className='talent pad'>
       <h3 className='pseccolor text-center pt-lg-5'>Where Our Talents Work</h3>
-      <div className='d-flex flex-wrap flex-lg-nowrap justify-content-center gap-5 p-4 pb-5'>
+      <div className='d-flex flex-wrap flex-lg-nowrap justify-content-center gap-2 gap-lg-5 p-4 pb-5'>
         <div><Logo src={micro}/></div>
         <div><Logo src={google}/></div>
         <div><Logo src={cocacola}/></div>

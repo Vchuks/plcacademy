@@ -4,16 +4,16 @@ import play from '../../images/Group 2.png'
 import Video from "../atom/Video";
 
 const VideoPart = () => {
-    const handleVideo=()=>{
-      
-    }
-  
+  const handleVideo=()=>{
+    <Video/>
+  }
   return (
     <div className="bgvideo">
+      
       <div className="playbg">
-      <Logo src={play} className="play" onClick={handleVideo}/>
+      {/* <Logo src={play} className="play" onClick={handleVideo}/> */}
+      <Video/>
       </div>
-      {/* <Video/> */}
     </div>
   );
 };

@@ -26,8 +26,8 @@ const Footer = () => {
         </div>
       </div>
 
-      <div className="d-flex flex-wrap flex-column flex-md-row gap-5 pb-5">
-        <div className="d-flex flex-column gap-2">
+      <div className="w-100 d-flex flex-wrap foottwo flex-row gap-5 pb-5">
+        <div className="footw d-flex flex-column gap-2">
           <h5>Top Courses</h5>
           <Link to="#">Data Analysis</Link>
           <Link to="#">Data Science</Link>
@@ -38,19 +38,19 @@ const Footer = () => {
           <Link to="#">Product Management</Link>
           <Link to="#">Product Marketing</Link>
         </div>
-        <div className="d-flex flex-column gap-2">
+        <div className="footw d-flex flex-column gap-2">
           <h5>Platforms</h5>
           <Link to="#">Pluralcode SandBox</Link>
           <Link to="#">Web Series</Link>
           <Link to="#">Exclusive</Link>
         </div>
-        <div className="d-flex flex-column gap-2">
+        <div className="footw d-flex flex-column gap-2">
           <h5>Schools</h5>
           <Link to="#">School of Data</Link>
           <Link to="#">School of Product</Link>
           <Link to="#">School of Engineering</Link>
         </div>
-        <div className="d-flex flex-column gap-2">
+        <div className="footw d-flex flex-column gap-2">
           <h5>Company</h5>
           <Link to="#">Why Pluralcode</Link>
           <Link to="#">Talk to Student Advisor</Link>
@@ -59,7 +59,7 @@ const Footer = () => {
           <Link to="#">Corporate Trainings</Link>
           <Link to="#">Hire Our Talents</Link>
         </div>
-        <div className="d-flex flex-column gap-2">
+        <div className="footw d-flex flex-column gap-2">
           <h5>Resources</h5>
           <Link to="#">Webinar series</Link>
           <Link to="#">Events</Link>
@@ -67,7 +67,7 @@ const Footer = () => {
           <Link to="#">Testimonials</Link>
           <Link to="#">Where Our Talents Works</Link>
         </div>
-        <div className="d-flex flex-column gap-2">
+        <div className="footw d-flex flex-column gap-2">
           <h5>Policies</h5>
           <Link to="#">Terms and Condition</Link>
           <Link to="#">Student Loan Policy</Link>

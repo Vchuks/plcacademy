@@ -79,7 +79,7 @@ const Accredit = () => {
           </div>
           <div class="carousel-item">
             <div className="d-flex mt-5 flex-column flex-md-row accpic">
-              <div className="w-100 m-auto d-flex  justify-content-center">
+              <div className="w-100 m-auto pt-5 pt-lg-0 d-flex justify-content-center">
                 <Logo src={frameone} className="d-flex w-50 pi" />
               </div>
               <div className="w-100 p-4">
@@ -105,7 +105,7 @@ const Accredit = () => {
           </div>
           <div class="carousel-item">
             <div className="d-flex mt-5 flex-column flex-md-row accpic">
-              <div className="w-100 m-auto d-flex justify-content-center">
+              <div className="w-100 m-auto pt-5 pt-lg-0 d-flex justify-content-center">
                 <Logo src={frameone} className="d-flex w-50 pi" />
               </div>
               <div className="w-100 p-4">

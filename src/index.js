@@ -1,5 +1,6 @@
 import "bootstrap/dist/css/bootstrap.min.css";
 import "bootstrap/dist/js/bootstrap.bundle.min";
+import "../node_modules/video-react/dist/video-react.css";
 import React from "react";
 import ReactDOM from "react-dom/client";
 import "./index.css";

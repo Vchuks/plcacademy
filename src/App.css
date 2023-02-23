@@ -26,7 +26,9 @@
   width: 30px;
   padding-right: 10px;
 }
-
+.ind{
+  z-index: 1;
+}
 .mag{
   margin: 0rem 2rem 0rem 0rem;
 }
@@ -38,9 +40,10 @@
 }
 .upp{
   background: url("./images/groupmap.png");
-  background-position-x:right ;
+  background-position:bottom right ;
   background-size: auto;
   background-repeat: no-repeat;
+  padding-top: 10%;
 }
 .bold{
   width: 58%;
@@ -95,8 +98,8 @@
   font-size: 14px;
 }
 .bgvideo{
-  height: 900px;
-  background: url("./images/Frame\ 8.png");
+  height: 100%;
+  width: 100%;
  
 }
 .playbg{
@@ -121,6 +124,12 @@
 .topbody{
   position: relative;
 }
+.stk{
+  position: fixed;
+  top: 0;
+  width: 100%;
+}
+
 .top{
   width: 87%;
   margin: auto;
@@ -233,11 +242,14 @@
     flex-wrap: wrap;
   }
   .imgfolder{
-    width: 280px;
-    height: 432px;
+    width: 100%;
+    height: auto;
     padding:1rem;
     border-top-left-radius: 1.5rem;
     border-bottom-right-radius: 1.5rem;
+  }
+  .imgfolder img{
+    width: 100%;
   }
  
 }
@@ -271,7 +283,7 @@
 }
 .imgfolder{
   width: 280px;
-  height: 432px;
+  height: auto;
   padding:1rem;
   border-top-left-radius: 1.5rem;
   border-bottom-right-radius: 1.5rem;
@@ -284,7 +296,7 @@
   border-bottom-right-radius: 1.5rem;
 }
 .bgvideo{
-  height: 400px;
+  height: 100%;
   background-size: cover;
   background-repeat: no-repeat;
 }
@@ -300,20 +312,26 @@
     }
     .upp{
       background: url("./images/groupmap.png");
-      /* background-position:top ; */
+      /* background-position:center ; */
       /* background-position-x: 0; */
       background-size: contain;
       background-repeat: no-repeat;
+      margin-top: 25%;
+      
     }
+  
     .imgfolder{
-      width: 280px;
-      height: 432px;
+      width: 100%;
+      height: auto;
       padding:1rem;
       border-top-left-radius: 1.5rem;
       border-bottom-right-radius: 1.5rem;
     }
+    .imgfolder img{
+      width: 100%;
+    }
     .upp h1{
-      padding-top: 75%;
+      padding-top: 60%;
     }
     .bold{
       width: 100%;
@@ -360,7 +378,8 @@
       flex-wrap: wrap;
     }
     .bgvideo{
-      height: 300px;
+      height: 100%;
+      width: 100%;
       background-size: cover;
       background-repeat: no-repeat;
     }
@@ -448,9 +467,26 @@
     height: 100vh;
     position: absolute;
     left: 0;
-    top:20%;
+    top:100%;
     padding: 1rem;
     z-index: 1;
     background: rgba(237, 237, 241, 0.9);
+  }
+  .foottwo{
+    font-size: 12px;
+  }
+  .footw{
+    width: 40%;
+  }
+}
+@media (min-width:280px) and (max-width:281px) {
+  .encol{
+    flex-direction: column;
+  }
+  .encol p {
+    line-height: 20px;
+  }
+  .inptcont{
+    width: 80%;
   }
 }
