@@ -4,7 +4,7 @@ import Button from "./Button";
 
 const Sidebar = () => {
   return (
-      <div className="w-100 fw-semibold ab">
+      <div className="w-100 fw-semibold ab ">
       <div className="navbtntwo d-flex flex-column gap-3">
         <NavLink to="" className="text-decoration-none navtextcolor">
           Certificate Courses

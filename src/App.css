@@ -480,13 +480,13 @@ body{
     width: 100%;
   }
   .ab{
-    height: 100vh;
+    max-height: 100vh;
     position: absolute;
     left: 0;
     top:100%;
     padding: 1rem;
     z-index: 1;
-    background: rgba(237, 237, 241, 0.9);
+    background: rgb(255, 255, 255);
   }
   .foottwo{
     font-size: 14px;
