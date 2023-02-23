@@ -486,7 +486,7 @@ body{
     top:100%;
     padding: 1rem;
     z-index: 1;
-    background: rgb(255, 255, 255);
+    background: #FFFDFA;
   }
   .foottwo{
     font-size: 14px;
