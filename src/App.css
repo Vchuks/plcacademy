@@ -489,10 +489,20 @@ body{
     background: rgba(237, 237, 241, 0.9);
   }
   .foottwo{
-    font-size: 12px;
+    font-size: 14px;
   }
   .footw{
     width: 40%;
+  }
+  .footw h5{
+    font-size: 16px;
+  }
+  .inptcont{
+    width: 80%;
+  }
+  .faqtitle{
+    width: 80%;
+    margin: auto;
   }
 }
 @media (min-width:280px) and (max-width:281px) {
