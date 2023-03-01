@@ -15,7 +15,7 @@ const WhySection = () => {
           p="
             Students can opt-in for our Onsite classes, virtual classes as well as Exclusive, One-on-One Mentorship. At Pluralcode we understand that you often have work, school and other pursuits to deal with and so we have structured program options to adapt to your specific needs and schedule. Contact any of our student advisors to find out how this works and how you can take advantage of it to up-skill for your ‘borderless career’ while you work or school."
         className="w-100 rounded-4 why text-white pseccolorbg p-4"/>
-        <div className="w-100 rounded-4 why bg-primary ">
+        <div className="w-100 rounded-4 why">
 
         <Logo src={pix} className="whyimg"/>
         </div>

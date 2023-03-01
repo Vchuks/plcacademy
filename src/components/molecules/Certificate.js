@@ -99,7 +99,7 @@ const Certificate = () => {
       </section>
 
       {/* second image section */}
-      <section className="w-100 d-md-flex flex-md-wrap gap-4 seccert justify-content-center">
+      <section className="w-100 d-md-flex flex-md-wrap gap-4 seccert justify-content-center align-items-center">
         <div className="imgfolder shadow-lg">
           <Logo src={frame5} />
           <div className="pt-3 d-flex flex-column">

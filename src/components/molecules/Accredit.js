@@ -7,7 +7,7 @@ import qt2 from "../../images/quotetwo.png";
 
 const Accredit = () => {
   return (
-    <div className="pad pseccolorbg text-white topbody">
+    <div className=" pseccolorbg text-white topbody">
       <div className="pseccolorbg top d-flex flex-column flex-md-row align-items-center flex-column-reverse justify-content-between">
         <div>
           <h3>Internationally Accredited</h3>
