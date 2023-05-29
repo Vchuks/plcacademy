@@ -39,8 +39,7 @@ const State = ({list}) => {
       )}
       {title && (
         <div className="py-3 px-4 faq">
-          <h4 className="fw-semibold">Why do I have to speak with your Student Advisor?</h4>
-          <p>
+          <p className="faqthin">
            {body}
           </p>
         </div>

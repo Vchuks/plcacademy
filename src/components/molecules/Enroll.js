@@ -1,49 +1,34 @@
 import React from "react";
-import Enrollpill from "../atom/Enrollpill";
-import picc1 from "../../images/Frame 110 (1).png";
-import picc2 from "../../images/Frame 110.png";
-import picc3 from "../../images/Frame 110 (3).png";
-import picc4 from "../../images/Frame 110 (2).png";
-import Button from "../atom/Button";
+import picc2 from "../../images/image 109.png";
+import Why from "../atom/Why";
+import Logo from "../atom/Logo";
 
 const Enroll = () => {
   return (
     <div className="pad padd enbg">
       <h2 className="text-center pseccolor py-lg-5 fw-semibold">How to Enroll?</h2>
-      <div className="d-flex flex-column flex-lg-row gap-4 py-3">
-        <Enrollpill
-          h3="Step One"
-          h5="Book a Session"
-          to="#"
-          linkchildren="click here"
-          p="Select the course you are interested in and speak with the Student Advisor for 5 - 10 minutes to get all the relevant information about the program"
-          src={picc1}
-          className="w-100 rounded-4 text-white encol stepone d-flex"
-        />
-        <Enrollpill
-          h3="Step Two"
-          h5="Enrollment Guide"
-          p="After your session, you will be walked through the process of enrollment, payment plans, self-paced study pack and calendar for instructor-led classes."
-          src={picc2}
-          className="w-100 rounded-4 text-white encol steptwo d-flex swap"
-        />
+      <div className="d-flex flex-column flex-lg-row gap-4 py-3" data-aos="fade-up" data-aos-duration="2000">
+      <Why
+          h2="
+          Free Advisory Session
+        "
+          p="
+          Select the course you are interested in and speak with the Student Advisor for 5 - 10 minutes to get all the relevant information about the program. After your session, you will be walked through the process of enrollment, payment plans, self-paced study pack and calendar for academic activities."
+        className="w-100 rounded-4 why whyh text-white pseccolorbg p-4"/>
+        <div className="w-100 rounded-4 why" data-aos="fade-up" data-aos-duration="2000">
+
+        <Logo src={picc2} className="whyimg"/>
+        </div>
       </div>
-      <div className="d-flex flex-column flex-lg-row gap-4 py-3">
-        <Enrollpill
-          h3="Step Three"
-          h5="Pay Tuition"
-          p="Once you pay tuition, you will be forwarded all necessary course materials, a welcome pack, and an invite into the course community on slack where you join other students."
-          src={picc3}
-          className="w-100 rounded-4 text-white encol steptwo d-flex"
-        />
-        <Enrollpill
-          h3="Step Four"
-          h5="You Are All Set!" 
-          p="Take full advantage a world class training program and a community of like minds."
-          children={<Button children="Start Now" className="btn col-sm-12 col-md-6 col-lg-12 pbcolor button py-1 py-lg-2"/>}
-          src={picc4}
-          className="w-100 rounded-4 text-white encol stepone swap d-flex"
-        />
+      <div className="d-flex flex-column flex-lg-row gap-4 py-3" data-aos="fade-up" data-aos-duration="2000">
+      <Why
+          h2="Application & Assessment"
+          p="After your initial onboarding, you may be required to take a background assessment test. This test is required to understand your current level of skill in your course of study and must be passed in order to continue your application. Assessment is not required when the advisor is satisfied with your current skill level or background on the subject. Once this is sufficiently addressed, student can move on to the final phase of enrollment."
+        className="rounded-4 why whyh text-white pbcolor p-3 p-lg-4"/>
+        <Why
+          h2="Tuition & Documents."
+          p="The final stage of your enrollment is Tuition & Documents. An invoice will be generated with your tuition fee and payment plan reflected, you will be required to pay this as soon as possible in order not to stall your admission process. Once tuition is paid, we will require a verifiable ID (NIN, Drivers License, Passport etc), Proof of address and Reference/Emergency contact information to complete your KYC and fully admit you into the academy."
+        className="rounded-4 why whyh text-white navtextcolorbg p-4"/>
       </div>
     </div>
   );

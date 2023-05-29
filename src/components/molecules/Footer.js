@@ -5,6 +5,7 @@ import inst from "../../images/bi_instagram.png";
 import face from "../../images/Group.png";
 import twit from "../../images/Group (1).png";
 import link from "../../images/Group (2).png";
+import tik from '../../images/Group 20686.png';
 import { Link } from "react-router-dom";
 import tel from '../../images/phone-call 1.png'
 import inout from '../../images/Instagram Outline.png'
@@ -17,18 +18,19 @@ const Footer = () => {
     <div className="pad pt-5 foot w-100 d-flex flex-column flex-lg-row gap-5 justify-content-between">
       <div>
         <Logo src={plogo} />
-        <p className="pt-4 py-2">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Enim.</p>
+        <p className="pt-4 py-2 foottp">Your global tech journey begins here. Master the skills you need to start.</p>
         <div className="d-flex gap-3">
-          <Link><Logo src={inst} /></Link>
-          <Link><Logo src={face} /></Link>
-          <Link><Logo src={twit} /></Link>
-          <Link><Logo src={link} /></Link>
+          <Link><Logo src={inst} className="logfoot" /></Link>
+          <Link><Logo src={face} className="logfoot" /></Link>
+          <Link><Logo src={twit} className="logfoot" /></Link>
+          <Link><Logo src={link} className="logfoot" /></Link>
+          <Link><Logo src={tik}  className="logfoot"/></Link>
         </div>
       </div>
 
       <div className="w-100 d-flex flex-wrap foottwo flex-row gap-5 pb-5">
         <div className="footw d-flex flex-column gap-2">
-          <h5 className="fw-semibold">Top Courses</h5>
+          <h5 className="">Top Courses</h5>
           <Link to="#">Data Analysis</Link>
           <Link to="#">Data Science</Link>
           <Link to="#">Data Engineering</Link>
@@ -39,13 +41,13 @@ const Footer = () => {
           <Link to="#">Product Marketing</Link>
         </div>
         <div className="footw d-flex flex-column gap-2">
-          <h5 className="fw-semibold">Platforms</h5>
+          <h5 className="">Platforms</h5>
           <Link to="#">Pluralcode SandBox</Link>
           <Link to="#">Web Series</Link>
           <Link to="#">Exclusive</Link>
         </div>
         <div className="footw d-flex flex-column gap-2">
-          <h5 className="fw-semibold">Schools</h5>
+          <h5 className="">Schools</h5>
           <Link to="#">School of Data</Link>
           <Link to="#">School of Product</Link>
           <Link to="#">School of Engineering</Link>
@@ -60,7 +62,7 @@ const Footer = () => {
           <Link to="#">Hire Our Talents</Link>
         </div>
         <div className="footw d-flex flex-column gap-2">
-          <h5 className="fw-semibold">Resources</h5>
+          <h5 className="">Resources</h5>
           <Link to="#">Webinar series</Link>
           <Link to="#">Events</Link>
           <Link to="#">FAQs</Link>
@@ -68,14 +70,14 @@ const Footer = () => {
           <Link to="#">Where Our Talents Works</Link>
         </div>
         <div className="footw d-flex flex-column gap-2">
-          <h5 className="fw-semibold">Policies</h5>
+          <h5 className="">Policies</h5>
           <Link to="#">Terms and Condition</Link>
           <Link to="#">Student Loan Policy</Link>
           <Link to="#">Refunds Policy</Link>
           <Link to="#">Privacy Policy</Link>
         </div>
         <div className="d-flex flex-column gap-2">
-          <h5 className="fw-semibold">Contact</h5>
+          <h5 className="">Contact</h5>
           <div className="d-flex gap-3 align-items-center"><Logo src={tel}/><Link to="#">+(234) 708-315-3185.</Link></div>
           <div className="d-flex gap-3 align-items-center"><Logo src={tel}/><Link to="#">+(234) 813-152-9862.</Link></div>
           <div className="d-flex gap-3 align-items-center"><Logo src={twitout} /><Link to="#">pluralcode</Link></div>

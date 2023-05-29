@@ -1,19 +1,29 @@
 import React from 'react'
 import Logo from '../atom/Logo'
-import micro from '../../images/micro.png';
-import google from '../../images/google.png';
-import cocacola from '../../images/cocacola.png';
-import skype from '../../images/skype.png';
+import timg1 from '../../images/palmpay.png';
+import timg2 from '../../images/palmpay (1).png';
+import timg3 from '../../images/palmpay (2).png';
+import timg4 from '../../images/palmpay (3).png';
+import timg5 from '../../images/palmpay (4).png';
+import timg8 from '../../images/palmpay (7).png';
+import timg6 from '../../images/palmpay (5).png';
+import timg7 from '../../images/palmpay (6).png';
+import timg9 from '../../images/afriglobe.png';
 
 const Talent = () => {
   return (
     <div className='talent pad'>
       <h3 className='pseccolor text-center pt-lg-5 fw-semibold'>Where Our Talents Work</h3>
-      <div className='d-flex flex-wrap flex-lg-nowrap justify-content-center gap-2 gap-lg-5 p-4 pb-5'>
-        <div><Logo src={micro}/></div>
-        <div><Logo src={google}/></div>
-        <div><Logo src={cocacola}/></div>
-        <div><Logo src={skype}/></div>
+      <div className='d-flex flex-wrap justify-content-center gap-4 talw' data-aos="zoom-in-up" data-aos-duration="2000">
+        <div className='talent-img'><Logo src={timg1} className="w-100"/></div>
+        <div className='talent-img'><Logo src={timg2} className="w-100"/></div>
+        <div className='talent-img'><Logo src={timg3} className="w-100"/></div>
+        <div className='talent-img'><Logo src={timg4} className="w-100"/></div>
+        <div className='talent-img'><Logo src={timg5} className="w-100"/></div>
+        <div className='talent-img'><Logo src={timg9} className="w-100"/></div>
+        <div className='talent-img'><Logo src={timg8} className="w-100"/></div>
+        <div className='talent-img'><Logo src={timg6} className="w-100"/></div>
+        <div className='talent-img'><Logo src={timg7} className="w-100"/></div>
       </div>
     </div>
   )

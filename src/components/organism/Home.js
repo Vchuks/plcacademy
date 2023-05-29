@@ -10,6 +10,8 @@ import Talent from '../molecules/Talent'
 import UpperPart from '../molecules/UpperPart'
 import VideoPart from '../molecules/VideoPart'
 import WhySection from '../molecules/WhySection'
+import BeginEnroll from '../molecules/BeginEnroll'
+import Tuition from '../molecules/Tuition'
 
 const Home = () => {
   return (
@@ -20,10 +22,12 @@ const Home = () => {
       <VideoPart/>
       <WhySection/>
       <Accredit/>
+      <Talent/>
       <Press/>
       <Enroll/>
+      <BeginEnroll/>
+      <Tuition/>
       <Faq/>
-      <Talent/>
       <Footer/>
     </div>
   )
